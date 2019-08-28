@@ -12,6 +12,17 @@
 		EB4775BE231657D900A8526F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4775BC231657D900A8526F /* Main.storyboard */; };
 		EB4775C0231657DA00A8526F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4775BF231657DA00A8526F /* Assets.xcassets */; };
 		EB4775C3231657DA00A8526F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4775C1231657DA00A8526F /* LaunchScreen.storyboard */; };
+		EB4775CD23165AD700A8526F /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4775CC23165AD700A8526F /* CloudKit.framework */; };
+		EB4775D623165CC400A8526F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4775D223165CC400A8526F /* GradientView.swift */; };
+		EB4775D723165CC400A8526F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4775D323165CC400A8526F /* Extension.swift */; };
+		EB4775D823165CC400A8526F /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4775D423165CC400A8526F /* RoundedView.swift */; };
+		EB4775D923165CC400A8526F /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4775D523165CC400A8526F /* RoundedButton.swift */; };
+		EB4775DD23165CE500A8526F /* PhotoGalleryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB4775DB23165CE500A8526F /* PhotoGalleryViewCell.xib */; };
+		EB4775DE23165CE500A8526F /* PhotoGalleryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4775DC23165CE500A8526F /* PhotoGalleryViewCell.swift */; };
+		EB4775E223165D8000A8526F /* CatEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4775DF23165D8000A8526F /* CatEditViewController.swift */; };
+		EB4775E323165D8000A8526F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4775E023165D8000A8526F /* LoginViewController.swift */; };
+		EB4775E423165D8000A8526F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4775E123165D8000A8526F /* RegisterViewController.swift */; };
+		EB4775E623165EF500A8526F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EB4775E523165EF500A8526F /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,18 @@
 		EB4775BF231657DA00A8526F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB4775C2231657DA00A8526F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB4775C4231657DA00A8526F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4775CA23165AD000A8526F /* Cating.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cating.entitlements; sourceTree = "<group>"; };
+		EB4775CC23165AD700A8526F /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		EB4775D223165CC400A8526F /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		EB4775D323165CC400A8526F /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		EB4775D423165CC400A8526F /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		EB4775D523165CC400A8526F /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		EB4775DB23165CE500A8526F /* PhotoGalleryViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoGalleryViewCell.xib; sourceTree = "<group>"; };
+		EB4775DC23165CE500A8526F /* PhotoGalleryViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoGalleryViewCell.swift; sourceTree = "<group>"; };
+		EB4775DF23165D8000A8526F /* CatEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatEditViewController.swift; sourceTree = "<group>"; };
+		EB4775E023165D8000A8526F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EB4775E123165D8000A8526F /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EB4775E523165EF500A8526F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4775CD23165AD700A8526F /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +62,10 @@
 		EB4775AC231657D900A8526F = {
 			isa = PBXGroup;
 			children = (
+				EB4775E523165EF500A8526F /* .gitignore */,
 				EB4775B7231657D900A8526F /* Cating */,
 				EB4775B6231657D900A8526F /* Products */,
+				EB4775CB23165AD700A8526F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +80,72 @@
 		EB4775B7231657D900A8526F /* Cating */ = {
 			isa = PBXGroup;
 			children = (
+				EB4775D123165B1400A8526F /* Model */,
+				EB4775D023165B0700A8526F /* View */,
+				EB4775CF23165AF400A8526F /* Controller */,
+				EB4775CE23165AE700A8526F /* Helper */,
+				EB4775CA23165AD000A8526F /* Cating.entitlements */,
+				EB4775BC231657D900A8526F /* Main.storyboard */,
 				EB4775B8231657D900A8526F /* AppDelegate.swift */,
 				EB4775BA231657D900A8526F /* ViewController.swift */,
-				EB4775BC231657D900A8526F /* Main.storyboard */,
 				EB4775BF231657DA00A8526F /* Assets.xcassets */,
-				EB4775C1231657DA00A8526F /* LaunchScreen.storyboard */,
 				EB4775C4231657DA00A8526F /* Info.plist */,
 			);
 			path = Cating;
+			sourceTree = "<group>";
+		};
+		EB4775CB23165AD700A8526F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB4775CC23165AD700A8526F /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB4775CE23165AE700A8526F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EB4775D323165CC400A8526F /* Extension.swift */,
+				EB4775D223165CC400A8526F /* GradientView.swift */,
+				EB4775D523165CC400A8526F /* RoundedButton.swift */,
+				EB4775D423165CC400A8526F /* RoundedView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EB4775CF23165AF400A8526F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB4775DF23165D8000A8526F /* CatEditViewController.swift */,
+				EB4775E023165D8000A8526F /* LoginViewController.swift */,
+				EB4775E123165D8000A8526F /* RegisterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EB4775D023165B0700A8526F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB4775DA23165CD500A8526F /* Component */,
+				EB4775DC23165CE500A8526F /* PhotoGalleryViewCell.swift */,
+				EB4775C1231657DA00A8526F /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB4775D123165B1400A8526F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB4775DA23165CD500A8526F /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				EB4775DB23165CE500A8526F /* PhotoGalleryViewCell.xib */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +180,14 @@
 				TargetAttributes = {
 					EB4775B4231657D900A8526F = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,8 +214,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4775E623165EF500A8526F /* .gitignore in Resources */,
 				EB4775C3231657DA00A8526F /* LaunchScreen.storyboard in Resources */,
 				EB4775C0231657DA00A8526F /* Assets.xcassets in Resources */,
+				EB4775DD23165CE500A8526F /* PhotoGalleryViewCell.xib in Resources */,
 				EB4775BE231657D900A8526F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +229,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4775E323165D8000A8526F /* LoginViewController.swift in Sources */,
+				EB4775E423165D8000A8526F /* RegisterViewController.swift in Sources */,
+				EB4775DE23165CE500A8526F /* PhotoGalleryViewCell.swift in Sources */,
 				EB4775BB231657D900A8526F /* ViewController.swift in Sources */,
+				EB4775D923165CC400A8526F /* RoundedButton.swift in Sources */,
+				EB4775E223165D8000A8526F /* CatEditViewController.swift in Sources */,
 				EB4775B9231657D900A8526F /* AppDelegate.swift in Sources */,
+				EB4775D623165CC400A8526F /* GradientView.swift in Sources */,
+				EB4775D823165CC400A8526F /* RoundedView.swift in Sources */,
+				EB4775D723165CC400A8526F /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Cating/Cating.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 46X9JWL5UU;
 				INFOPLIST_FILE = Cating/Info.plist;
@@ -300,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Cating/Cating.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 46X9JWL5UU;
 				INFOPLIST_FILE = Cating/Info.plist;
